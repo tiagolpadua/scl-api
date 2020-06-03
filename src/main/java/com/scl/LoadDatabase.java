@@ -27,8 +27,8 @@ class LoadDatabase {
 			logger.info("Preloading " + categoriaRepository.save(categoriaAuto));
 			logger.info("Preloading " + categoriaRepository.save(categoriaDireito));
 
-			logger.info("Preloading " + livroRepository.save(new Livro("Bilbo Baggins", categoriaAdm)));
-			logger.info("Preloading " + livroRepository.save(new Livro("Frodo Baggins", categoriaAuto)));
+			logger.info("Preloading " + livroRepository.save(new Livro("O Senhor dos Anéis", categoriaAdm)));
+			logger.info("Preloading " + livroRepository.save(new Livro("A Cabana", categoriaAuto)));
 
 		};
 	}
