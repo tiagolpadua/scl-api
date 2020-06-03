@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.timsoft</groupId>
 	<artifactId>scl-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>scl-api</name>
 	<description>Projeto Demo de API para cadastro de livros</description>
 
